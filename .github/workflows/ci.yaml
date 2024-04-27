@@ -22,7 +22,7 @@ jobs:
           deno-version: v1.x
 
       - name: Lint
-        run: deno task lint
+        run: deno lint
 
       - name: Test
         run: deno task coverage
