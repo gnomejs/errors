@@ -13,7 +13,7 @@
     "tasks": {
         "test": "deno test -A",
         "coverage": "deno test --coverage=.artifacts/code-coverage -A",
-        "lcov": "deno coverage --lcov > .artifacts/code-coverage.lcov"
+        "lcov": "deno coverage .artifacts/code-coverage --lcov > .artifacts/code-coverage.lcov"
     },
 
     "publish": {
