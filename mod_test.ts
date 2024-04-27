@@ -30,7 +30,7 @@ Deno.test("TimeoutError", () => {
 Deno.test("ArgumentError", () => {
     const x = new ArgumentError("arg1");
     assertInstanceOf(x, Error);
-    equals(x.message, "Argument  is invalid.");
+    equals(x.message, "Argument arg1 is invalid.");
     equals(x.name, "ArgumentError");
     ok(x.stack);
     equals(x.code, "ArgumentError");
