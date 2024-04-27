@@ -20,7 +20,8 @@
         "include": [
             "mod.ts",
             "README.md",
-            "LICENSE.md"
+            "LICENSE.md",
+            "deno.json"
         ]
     },
     "imports": {
